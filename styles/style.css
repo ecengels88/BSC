@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  flex-grow: 1;
+  flex-basis: calc(100%/6 - 2rem);
+  margin: 1rem;
+}
+
+.card {
+  background: #555;
+  min-height: 8rem;
+
+}
